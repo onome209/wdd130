@@ -41,7 +41,7 @@ nav, p, section, article {
     height: auto;
   }
   .hero {
-  position: relative; /* ensures absolute elements inside position correctly */
+  position: relative; 
 }
 
 h1 {
@@ -66,4 +66,18 @@ h1 {
 }
 h2{
     text-align: center;
+}
+.hero-text {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    color: white;
+    background: rgba(red, green, blue, alpha);
+    padding: 1rem;
+
+}
+.float-right {
+    float: right;
+    margin: 0 0 1rem 1rem;
+    width: 250px;/* or whatever size fits*/
 }
