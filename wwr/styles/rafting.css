@@ -365,23 +365,32 @@ button:hover {
   text-align: center;
   margin: 50px auto;
   max-width: 1000px;
+  padding: 2rem;
 }
 .history-content {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 20px;
+  gap: 2rem;
   flex-wrap: wrap;
+  margin-top: 1rem;
 }
 .history-content img {
-  width: 100%;
-  border-radius: 10px;
+  width: 250px;
+  border-radius: 8px;
+  height: auto;
 }
 
 /* Make sure the text shares space */
 .history-content p{
   flex: 1;
-  min-width: 200px;
+  min-width: 300px;
+  line-height: 1.6;
+}
+.history-content figcaption {
+  margin-top: 5px;
+  font-size: 0.9rem;
+  color: #333;
 }
 
 /*ADVENTURE SECTION */
