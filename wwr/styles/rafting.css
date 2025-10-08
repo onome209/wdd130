@@ -267,3 +267,72 @@ button:hover {
     border: none;
     text-align: center;
 }
+.map-container iframe{
+  width: 100%;
+  height: 300px;
+  border: 0;
+}
+/* CONTACT FORM STYLING */
+.form-container {
+  max-width: 600px;
+  margin: 40px auto;
+  background-color: #f8f9fa;
+  padding: 25px 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.form-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container label {
+  font-weight: bold;
+  margin-top: 15px;
+  color: #222;
+}
+
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container textarea {
+  padding: 10px;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 5px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.form-container textarea {
+  resize: vertical;
+}
+
+.form-container input[type="radio"],
+.form-container input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+.form-container button {
+  margin-top: 20px;
+  padding: 12px;
+  font-size: 1em;
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form-container button:hover {
+  background-color: #005fa3;
+}
+
+/* Center the form title and ensure spacing below header */
+.contact-header {
+  text-align: center;
+  margin-top: 80px;
+  color: black;
+}
