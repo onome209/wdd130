@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - White Water Rafting Adventures</title>
+    <meta name="description" content="Contact White Water Rafting Adventures for bookings, questions, or more information.">
+    <meta name="author" content="Owobu Onome">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/rafting-logo.jpg" alt="Rafting site Logo" width="80">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html" class="active">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Contact Info -->
+        <section class="contact-header">
+            <h1>White Water Rafting Company</h1>
+            <p>123 Main River Street<br>Kolob, California<br>+1 (999) 999-9999<br>
+                <a href="mailto:info@whitewater.com">info@whitewater.com</a>
+            </p>
+        </section>
+
+        <!-- Map and Form Side by Side -->
+        <section class="contact-section">
+            <div class="map">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.000000000000!2d-117.0000000!3d37.0000000!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzfCsDAwJzAwLjAiTiAxMTfCsDAwJzAwLjAiVw!5e0!3m2!1sen!2sus!4v1684000000000!5m2!1sen!2sus" 
+                    width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy">
+                </iframe>
+            </div>
+
+            <div class="form-container">
+                <form action="#" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+                    <p><strong>Message Purpose:</strong></p>
+                    <label><input type="radio" name="purpose" value="general"> General Inquiry</label><br>
+                    <label><input type="radio" name="purpose" value="reservation"> Reservation Question</label><br>
+                    <label><input type="radio" name="purpose" value="suggestion"> Website Suggestion</label>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Type here..." required></textarea>
+
+                    <label>
+                        <input type="checkbox" name="subscribe"> Please subscribe me to the monthly newsletter
+                    </label>
+
+                    <button type="submit">Get in Touch!</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- Employee Section -->
+        <section class="employees">
+            <h2>We Are Here to Serve You</h2>
+            <div class="employee-profiles">
+                <figure>
+                    <img src="images/employee1.jpg" alt="Employee 1">
+                    <figcaption>Employee Profile</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/employee2.jpg" alt="Employee 2">
+                    <figcaption>Employee Profile</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/employee3.jpg" alt="Employee 3">
+                    <figcaption>Employee Profile</figcaption>
+                </figure>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>©2025 💦 White Water Rafting Adventures 💦 Owobu Onome Joyce</p>
+        <nav class="socialmedia">
+            <a href="https://facebook.com"><img src="images/facebook.jpg" alt="Facebook Icon"></a>
+            <a href="https://instagram.com"><img src="images/insta.jpg" alt="Instagram Icon"></a>
+            <a href="https://whatsapp.com"><img src="images/whatsapp.jpg" alt="Whatsapp Icon"></a>
+            <a href="https://linkedin.com"><img src="images/linkedin.jpg" alt="Linkedin Icon"></a>
+        </nav>
+    </footer>
+</body>
+</html>
