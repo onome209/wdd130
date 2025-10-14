@@ -5,11 +5,7 @@
     --accent2-color:#e9c46a;
     --heading-font:"Times New Roman", "Georgia", serif;
     --body-font: Arial ,Helvetica,sans-serif;
-}
-header{
-    background-color: var(--primary-color);
-    color:var(--accent1-color);
-}
+    }
 *{
     margin: 0;
     padding: 0;
@@ -82,6 +78,7 @@ header {
   align-items: center;
   padding: 1rem;
   background-color: #d5c7f2; /* adjust color */
+  color: #220404;
 }
 
 header img {
@@ -104,7 +101,7 @@ nav li {
 nav a {
   text-decoration: none;
   font-weight: bold;
-  color: white;
+  color: #220404;
 }
 .history {
   display: grid;
@@ -279,7 +276,7 @@ button:hover {
     transform: translate(-50%, -50%);
     color: white;
     font-size: 2.5em;
-    background: rgba(0, 0, 0, 0.3); /* faint background for visibility */
+    background: rgba(0, 0, 0, 0.5); /* faint background for visibility */
     padding: 10px 20px;
     border: none;
     text-align: center;
